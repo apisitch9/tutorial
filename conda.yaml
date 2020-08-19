@@ -1,0 +1,12 @@
+# sklearn_elasticnet_wine/conda.yaml
+
+channels:
+- defaults
+dependencies:
+- python=3.8.3
+- scikit-learn=0.23.2
+- pip
+- pip:
+  - mlflow
+  - cloudpickle==1.4.1
+name: mlflow-env
